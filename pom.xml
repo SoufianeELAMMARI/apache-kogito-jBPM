@@ -52,28 +52,27 @@
     <dependency>
       <groupId>org.kie.kogito</groupId>
       <artifactId>kogito-processes-spring-boot-starter</artifactId>
+      <version>1.44.1.Final</version>
     </dependency>
     <dependency>
       <groupId>org.kie.kogito</groupId>
       <artifactId>kogito-api</artifactId>
     </dependency>
 
+    <!-- Kogito Infinispan Persistence Addon (Spring Boot) -->
+    <!-- https://mvnrepository.com/artifact/org.kie.kogito/kogito-addons-springboot-persistence-infinispan -->
     <dependency>
       <groupId>org.kie.kogito</groupId>
-      <artifactId>kogito-processes-spring-boot-starter</artifactId>
-      <version>2.44.0.Alpha</version>
+      <artifactId>kogito-addons-springboot-persistence-infinispan</artifactId>
+      <version>1.28.0.Final</version>
     </dependency>
 
+    <!-- Infinispan Spring Boot Starter -->
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-data-jpa</artifactId>
+      <groupId>org.infinispan</groupId>
+      <artifactId>infinispan-spring-boot-starter-remote</artifactId>
+      <version>14.0.34.Final</version>
     </dependency>
-
-    <dependency>
-      <groupId>org.postgresql</groupId>
-      <artifactId>postgresql</artifactId>
-    </dependency>
-
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -92,7 +91,21 @@
       <artifactId>kogito-spring-boot-starter</artifactId>
       <version>1.44.1.Final</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.kie.kogito/persistence-commons-jpa -->
+
+    <!-- https://mvnrepository.com/artifact/org.kie.kogito/process-serialization-protobuf -->
+    <!-- https://mvnrepository.com/artifact/org.kie.kogito/process-serialization-protobuf -->
+    <!-- https://mvnrepository.com/artifact/org.kie.kogito/process-serialization-protobuf -->
+    <dependency>
+      <groupId>org.kie.kogito</groupId>
+      <artifactId>process-serialization-protobuf</artifactId>
+      <version>10.1.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-java</artifactId>
+      <version>3.25.5</version>
+    </dependency>
 
     <dependency>
       <groupId>jakarta.annotation</groupId>
